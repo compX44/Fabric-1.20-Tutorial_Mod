@@ -1,5 +1,6 @@
 package com.github.compx44.tutorialmod;
 
+import com.github.compx44.tutorialmod.block.ModBlocks;
 import com.github.compx44.tutorialmod.item.ModItemGroups;
 import com.github.compx44.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,6 +16,8 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
 
 	}
 }
